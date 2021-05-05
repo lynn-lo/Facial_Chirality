@@ -11,3 +11,26 @@ Given a face image and its reflection without additional labels, we decouple the
 * Install Pytorch==1.7.0
 * Install requirements.txt (pip install -r requirements.txt)
 
+## Data Preparation
+1. To train our model with RAF-DB dataset, you need to first download the RAF-DB dataset and place it using the structure like:
+```
+├── raf-basic
+│   ├── EmoLabel
+│   │   └── list_patition_label.txt
+│   └── Image
+│       └── aligned
+│           ├── train_00001_aligned.jpg
+│           ├── ...
+│           ├── test_0001_aligned.jpg
+│           ├── ...
+
+```
+  We only use aligned images for training.
+
+2. Create a directory named "models", download the trained weight of the model for testing from https://drive.google.com/file/d/1bLCY4LKSD7a5GqB_f9-N8pvPYQtbyub0/view?usp=sharing and place the model weight file in the "models" directory.
+
+## Run Testing Using The Provided Model Weight
+
+## Run Training
+
+## Run image retrieval
