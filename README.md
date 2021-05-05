@@ -30,7 +30,17 @@ Given a face image and its reflection without additional labels, we decouple the
 2. Create a directory named "models", download the trained weight of the model for testing from https://drive.google.com/file/d/1bLCY4LKSD7a5GqB_f9-N8pvPYQtbyub0/view?usp=sharing and place the model weight file in the "models" directory.
 
 ## Run Testing Using The Provided Model Weight
-
+```
+python train.py --test
+```
 ## Run Training
+```
+python train.py --train --dataset [path to your RAF-DB datset]
+
+```
 
 ## Run image retrieval
+```
+python train.py --image_retrieval --query_path [path to your query image]
+
+```
