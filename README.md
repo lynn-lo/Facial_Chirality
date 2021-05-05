@@ -7,6 +7,7 @@ Given a face image and its reflection without additional labels, we decouple the
 ![facial chirality](chirality.png)
 *An illustration of **facial chirality**. The human face is chiral and its horizontal reflection cannot be superimposed to make the same image, while an achiral object can be perfectly overlapped with its horizontal reflection.*
 
-## Readme
-1. 
-2.
+## Prerequisites
+* Install Pytorch==1.7.0
+* Install requirements.txt (pip install -r requirements.txt)
+
