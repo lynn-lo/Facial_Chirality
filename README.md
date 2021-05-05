@@ -39,7 +39,7 @@ python train.py --train --dataset [path to your RAF-DB datset]
 
 ```
 
-## Run image retrieval
+## Run Image Retrieval
 ```
 python train.py --image_retrieval --query_path [path to your query image]
 
