@@ -1,4 +1,4 @@
-# Facial_Chirality
+# Facial Chirality
 
 ## abstract
 As a fundamental vision task, facial expression recognition has made substantial progress recently. However, the recognition performance often degrades largely in real-world scenarios due to the lack of robust facial features. In this paper, we propose a simple but effective facial feature learning method that takes the advantage of **facial chirality** to discover the discriminative features for facial expression recognition. Most previous studies implicitly assume that human faces are symmetric. However, our work reveals that the facial asymmetric effect can be a crucial clue. 
