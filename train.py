@@ -25,7 +25,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='./datasets/raf-basic/', help='Raf-DB dataset path.')
+    parser.add_argument('--dataset', type=str, default='./raf-basic/', help='Raf-DB dataset path.')
     parser.add_argument('--train', action='store_true', help='run training')
     parser.add_argument('--test', action='store_true', help='run testing')
     parser.add_argument('--image_retrieval', action='store_true', help='run image retrieval')
