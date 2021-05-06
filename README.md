@@ -31,7 +31,7 @@ Given a face image and its reflection without additional labels, we decouple the
 
 ## Run Testing Using The Provided Model Weight
 ```
-python train.py --test
+python train.py --test --dataset [path to your RAF-DB datset]
 ```
 ## Run Training
 ```
