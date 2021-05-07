@@ -1,4 +1,4 @@
-# Facial Chiralityz: Using Self-face Reflection to Learn Discriminative Features for Facial Expression Recognition
+# Facial Chirality: Using Self-face Reflection to Learn Discriminative Features for Facial Expression Recognition
 
 ---
 ## Abstract
