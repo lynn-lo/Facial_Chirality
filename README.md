@@ -12,7 +12,7 @@ Given a face image and its reflection without additional labels, we decouple the
 * Install requirements.txt (pip install -r requirements.txt)
 
 ## Data Preparation
-1. To train our model with RAF-DB dataset, you need to first download the RAF-DB dataset and place it using the structure like:
+To train our model with RAF-DB dataset, you need to first download the RAF-DB dataset and place it using the structure like:
 ```
 ├── raf-basic
 │   ├── EmoLabel
