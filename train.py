@@ -212,7 +212,7 @@ def run_training():
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, 20, gamma=0.1)
     
 
-    best_val_acc = 0.0
+    
     for i in range(1, args.epochs + 1):
         # training
         running_loss = 0.0
@@ -290,17 +290,6 @@ def run_training():
             acc = bingo_cnt.float()/float(sample_cnt)
             acc = np.around(acc.numpy(),4)
             print("[Epoch %d] Validation accuracy:%.4f. Loss:%.3f" % (i, acc, running_loss))
-            if not os.path.isdir('./models/'):
-                os.makedirs('./models/')
-            if acc > best_val_acc:
-                best_val_acc = acc
-                print("############best_val_acc##############",best_val_acc)
-                if acc > 0.86:
-                    torch.save({'iter': i,
-                                'model_state_dict': model.state_dict(),
-                                'optimizer_state_dict': optimizer.state_dict(),},
-                                os.path.join('models', "epoch"+str(i)+"_acc"+str(acc)+".pth"))
-                    print('Model saved.')
 
     
 def testing(ckpt_path):
