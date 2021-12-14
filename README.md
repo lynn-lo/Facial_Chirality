@@ -27,7 +27,8 @@ Given a face image and its reflection without additional labels, we decouple the
 ```
   We only use aligned images for training.
 
-//2. Create a directory named "models", download the trained weight of the model for testing from https://drive.google.com/file/d/1bLCY4LKSD7a5GqB_f9-N8pvPYQtbyub0/view?usp=sharing and place the model weight file in the "models" directory.
+<!-- 2. Create a directory named "models", download the trained weight of the model for testing from https://drive.google.com/file/d/1bLCY4LKSD7a5GqB_f9-N8pvPYQtbyub0/view?usp=sharing and place the model weight file in the "models" directory.
+-->
 
 ## Run Testing Using The Provided Model Weight
 ```
